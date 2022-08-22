@@ -1,0 +1,53 @@
+/** =====================================================================================
+ *  Defines the typographic baseline.
+ *  We define every size in pixels, the underlying system converts the
+ *  respective units to the responsive REM value.
+ ===================================================================================== */
+
+/**
+ * Our base font-size and line-height
+ */
+$base-font-size: 14 !default;
+$base-line-height: 21 !default;
+$line-height-ratio: $base-line-height/$base-font-size !default;
+
+$font-sizes: (
+        //m-small: 10,
+        //m2-small: 11,
+        small: 12,
+        l-small: 14,
+        base: $base-font-size,
+        //mid: 18,
+        //mid-m: 19,
+        //mid-large: 20,
+        //m-mid-large: 22,
+        //large: 24,
+        //s-large: 26,
+        m-large: 32,
+        //l-large: 36,
+        //l1-large: 40,
+        //x-large: 46,
+        //x1-large: 58,
+        //x1-mid-large: 70,
+        //x2-mid-large: 80,
+        //x2-large: 120,
+        //x3-large: 150
+
+);
+
+/**
+ *	Here we assign short names for the font families
+ */
+$font-montserrat: 'Montserrat', sans-serif;
+$font-lora-serif:  'Lora', serif;
+// $font-noto-serif-jp: 'NotoSerifJP', serif;
+
+//$_font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-families: (
+        base: $font-montserrat,
+        secondary: $font-lora-serif,
+  // Fallback font
+        //system: $_font-system
+);
+

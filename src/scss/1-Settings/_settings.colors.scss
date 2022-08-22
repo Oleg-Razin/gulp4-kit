@@ -1,0 +1,46 @@
+/**
+ *  Global color variables.
+ *	The underscore Never use them directly in the styles, only for functions and mixins.
+ */
+
+$_color-primary-white: #ffffff !default;
+$_color-primary-yellow: #f8c311 !default;
+$_color-primary-manatee: #8c8da0 !default;
+$_color-primary-black: #2b2b2b !default;
+$_color-primary-light-blue: #f9fBff !default;
+
+$_color-secondary-dark-blue: #1a1b41 !default;
+$_color-secondary-gray: #828282 !default;
+$_color-secondary-light-gray: #e5e5e5 !default;
+
+
+/**
+ *  Organize color variables in a Sass Map.
+ *  This way, the colors can be iterated, are more organized, and are more intuitive to reference.
+ */
+$palettes: (
+  "primary-white": (
+    base: $_color-primary-white,
+  ),
+  "primary-yellow": (
+    base: $_color-primary-yellow,
+  ),
+  "primary-manatee": (
+    base: $_color-primary-manatee,
+  ),
+  "primary-black": (
+    base: $_color-primary-black,
+  ),
+  "primary-light-blue": (
+    base: $_color-primary-light-blue,
+  ),
+  "secondary-dark-blue": (
+    base: $_color-secondary-dark-blue,
+  ),
+  "secondary-gray": (
+    base: $_color-secondary-gray,
+  ),
+  "secondary-light-gray": (
+    base: $_color-secondary-light-gray,
+  ),
+);

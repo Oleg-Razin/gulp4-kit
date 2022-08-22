@@ -1,0 +1,60 @@
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c-btn {
+  display: inline-block;
+  padding: 15px 24px;
+  @include font(l-small, 14, 500);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0, 1);
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.c-btn--primary {
+  background-color: palette(primary-yellow);
+  color: palette(primary-white);
+  border: 1px solid palette(primary-yellow);
+
+  &:hover {
+    background-color: palette(primary-white);
+    color: palette(primary-black);
+  }
+}
+
+.c-btn--primary-blue {
+  background-color: rgba(palette(secondary-dark-blue), .9);
+  color: palette(primary-white);
+  border: 1px solid palette(secondary-dark-blue);
+
+  &:hover {
+    background-color: palette(secondary-dark-blue);
+    color: palette(primary-white);
+  }
+}
+
+.c-btn--secondary {
+  background-color: palette(primary-white);
+  color: palette(primary-yellow);
+  border: 1px solid palette(primary-yellow);
+}
+
+.c-btn--outline {
+  background-color: transparent;
+  color: palette(secondary-dark-blue);
+  border: 1px solid palette(secondary-dark-blue);
+}
+
+.c-btn__link {
+  display: inline-block;
+  @include font(base, 14, 400);
+  color: palette(primary-black);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

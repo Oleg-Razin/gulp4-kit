@@ -1,0 +1,32 @@
+h1 {
+  @include font(m-large, 32, 500);
+  @include font-family(secondary);
+}
+
+h2 {
+  @include font-family(secondary);
+  @include font(l-small, 14, 600);
+
+  //@include mq($md) {
+  //  @include font(x-large, 60, 900);
+  //}
+}
+
+//h3 {
+//  @include font(s-large, 46, 900);
+//  @include font-family(secondary);
+//}
+//
+//h4 {
+//  @include font(large, 40, 900);
+//  @include font-family(secondary);
+//}
+//
+//h5 {
+//  @include font(m-mid-large, 38, 700);
+//  @include font-family(secondary);
+//}
+//
+//h6 {
+//  @include font(mid, 36, 600);
+//}
