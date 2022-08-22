@@ -1,4 +1,4 @@
-# gulp-4-webpack
+# gulp-4-template
 
 ## Gulp scripts
 
