@@ -2,5 +2,5 @@
 
 ## Gulp scripts
 
--**gulp** - build
--**gulp watch** - watch 
+- **gulp** - build
+- **gulp watch** - watch 
